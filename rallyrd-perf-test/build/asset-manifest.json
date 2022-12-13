@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.74830f4e.js",
-    "static/js/787.ab5e732a.chunk.js": "/static/js/787.ab5e732a.chunk.js",
-    "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.74830f4e.js.map": "/static/js/main.74830f4e.js.map",
-    "787.ab5e732a.chunk.js.map": "/static/js/787.ab5e732a.chunk.js.map"
+    "main.css": "rallyrd-perf-test/build/static/css/main.e6c13ad2.css",
+    "main.js": "rallyrd-perf-test/build/static/js/main.747309e2.js",
+    "static/js/787.ab5e732a.chunk.js": "rallyrd-perf-test/build/static/js/787.ab5e732a.chunk.js",
+    "index.html": "rallyrd-perf-test/build/index.html",
+    "main.e6c13ad2.css.map": "rallyrd-perf-test/build/static/css/main.e6c13ad2.css.map",
+    "main.747309e2.js.map": "rallyrd-perf-test/build/static/js/main.747309e2.js.map",
+    "787.ab5e732a.chunk.js.map": "rallyrd-perf-test/build/static/js/787.ab5e732a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.74830f4e.js"
+    "static/js/main.747309e2.js"
   ]
 }
