@@ -3,12 +3,12 @@ import runPerfTest from "./runPerfTest";
 
 function App() {
   const [isRunning, setIsRunning] = useState(false);
-  const [message, setMessage] = useState();
+  const [results, setResults] = useState();
   const run = async () => {
     setIsRunning(true);
-    setMessage('');
+    setResults(undefined);
     const perfResults = await runPerfTest();
-    setMessage(perfResults.message);
+    setResults(perfResults);
     setIsRunning(false);
   };
 
@@ -16,7 +16,12 @@ function App() {
     <header>
       <div>Rally Rd Performance Test</div>
       <button onClick={run} disabled={isRunning}>Run</button>
-      <div>{message}</div>
+      {results && 
+        <div>
+          <div>{results.message}</div>
+          <pre>{JSON.stringify(results.data, undefined, 2)}</pre>
+        </div>
+      }
     </header>
   );
 }
